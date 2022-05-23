@@ -1,0 +1,611 @@
+
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+  @media only screen and (max-width: 600px) {
+    .example {background: rgb(232, 189, 241);}
+  }
+  
+}
+.animate__animated.animate__bounce {
+    --animate-duration: 60s;
+    text-align: center;
+    padding: auto;
+    justify-content:center;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap');
+
+  .animate__animated {
+    text-align: center;
+    justify-content:center;
+    font-family:'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: 0px;
+    font-size:8vw;
+  }
+
+
+/* Main Styling */
+body {
+  font-family:'Dancing Script', cursive !important;
+  background: #0E0A27;
+  color: rgb(0, 0, 0);
+  text-align: center;
+background-color: #fdfdfd;
+}
+
+/*.item
+{flex-flow: row wrap ;
+  display: flex ;
+  width: 200px ;
+  justify-content: center;
+  gap: 20px 1px 3px;
+  align-content:space-between ;
+ align-items:center;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color:rgb(0, 0, 0)!important;
+}
+
+/*header {
+  height: 75px !important;
+  width: 100vw!important;
+  display: flex;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  flex-flow: row wrap ;
+  background-image: linear-gradient(to right, #c011f0, #e8eb42);
+ align-items:center ;
+ align-content:space-between !important;
+ justify-items: center;
+ text-decoration: none !important;
+ justify-content: space-around;
+}*/
+
+.menu{
+  background-image: linear-gradient(to right, #c011f0, #e8eb42)!important;
+  height: 75px !important;
+  width: 100vw!important;
+  margin: 0px 30px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  box-shadow: 2px 0 3px rgba(245, 159, 225);
+  z-index: 1;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+
+a{ 
+  display:inline-flexbox !important;
+  margin:0 5px ;
+  font-size: 20px;
+   align-items: center;
+  justify-items:flex-start;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  list-style: none !important;
+}
+ul li{
+  list-style: none;
+}
+li{
+  display: inline-flex;
+}
+a:hover, a.active{
+background-color: #fdfdfd;
+transition: .5s;
+}
+
+.btn_menu{
+  margin-right: 30px;
+  font-size: 25px;
+  color: #fdfefe;
+  cursor: pointer;
+  display: none;
+}
+ul.show{
+  top:65px;
+}
+@media screen and (max-width: 952px){
+  .menu_items li a{
+    font-size:16px;
+  }
+}
+
+@media screen and (max-width: 858px){
+  .menu{
+    height: 65px;
+  }
+  .btn_menu{
+    display:inline-flex;
+  }
+  .menu_items {
+    position:fixed ;
+    width: 100vw;
+    height: calc(100% -65px);
+    background: rgb(74, 62, 245);
+    top: -100vh;
+    text-align: center;
+    transition:all .5s;
+    flex-direction: column;
+ }
+ .menu_items li {
+   margin: 30px 0 0 0 ;
+   line-height: 30px;
+ }
+ 
+ .menu_items li:hover{
+   background: none;
+  }
+
+ .menu_items li a{
+   color:black;
+   font-weight: bolt;
+   font-size: 20px;
+   color: #2cec90;
+  }
+
+  .menu_items li a:hover{
+    color:red
+  }
+  
+
+}
+
+
+label{
+  font-family:sans-serif,bolt ;
+}
+h1 { font-size: 4rem;
+  font-family: 'Dancing Script', cursive;
+  }
+h2 { font-size: 2rem; 
+  font-family: 'Dancing Script', cursive!important }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 5.3rem; 
+text-align: center;
+}
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+h1,h4,p {
+  line-height: 1.4em;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/*a {
+  text-decoration:whitesmoke;
+  color: #fff;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 10px;
+}*/
+
+ 
+/*Fotos
+.fotos {
+box-sizing:border-box!important;
+display:grid!important;
+position: relative;
+border: 3px solid rgb(235, 112, 85) !important;
+flex-wrap: nowrap;
+flex-direction:column!important;
+margin: auto;
+justify-content:flex-start !important;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 8cm;
+color: #edc9f7;
+}
+*/
+
+
+
+/*.tarjeta{
+  border: 1px solid rgb(108, 138, 237)!important;
+  margin: 10px;
+  text-align: center!important;
+  font-size: 8cm!important;
+  grid-template:auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.cuerpo{
+  padding: 10px;
+  text-align: center!important;
+  font-size: 8cm!important;
+  grid-template:auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}*/
+img{
+
+    width: (100% / 6);
+    max-width: 120em;
+    background-color:#aa8eef ;
+    display:inline-flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+    align-items: center;
+  
+ 
+}
+h3{
+  font-size: 1cm;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+h4{
+  font-size:2ch;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* formulario de registro*/
+
+* {
+	box-sizing: border-box;
+}
+
+main {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 40px;
+}
+
+.formulario {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+
+.formulario__label {
+	display: block;
+	font-weight: 700;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.formulario__grupo-input {
+	position: relative;
+}
+
+.formulario__input {
+	width: 100%;
+	background: rgb(244, 246, 247);
+	border: 3px solid transparent;
+	border-radius: 3px;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 40px 0 10px;
+	transition: .3s ease all;
+}
+
+.formulario__input:focus {
+	border: 3px solid #0075FF;
+	outline: none;
+	box-shadow: 3px 0px 30px rgba(166, 242, 156, 0.4);
+}
+
+.formulario__input-error {
+	font-size: 12px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+
+.formulario__checkbox {
+	margin-right: 10px;
+}
+
+.formulario__grupo-terminos, 
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+	grid-column: span 2;
+}
+
+.formulario__mensaje {
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.formulario__btn {
+	height: 45px;
+	line-height: 45px;
+	width: 30%;
+	background: #d00044;
+	color: rgb(253, 250, 250);
+	font-weight: bold;
+	border: 2px solid #d00044;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgb(242, 177, 229);
+}
+
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+	.formulario {
+		grid-template-columns: 1fr;
+	}
+
+	.formulario__grupo-terminos, 
+	.formulario__mensaje,
+	.formulario__grupo-btn-enviar {
+		grid-column: 1;
+	}
+
+	.formulario__btn {
+		width: 100%;
+	}
+}
+  
+/*formulario de contacto*/
+
+.large {
+  font-size: 1.2rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 13px 20px;
+}
+
+.btn-red {
+  background: #d00044;
+  color: #fff;
+  border: 2px solid #d00044;
+  border-radius: 5px;
+}
+
+form label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .7rem;
+  font-size: 1rem;
+}
+
+#showcase {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#showcase img {
+  width: 20%;
+}
+
+#showcase p {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#showcase a{
+  width: 180px;
+}
+.showcase {
+  /* flex-flow: <flex-direction> <flex-wrap>; */
+  flex-flow: row nowrap ;
+  display: flex;
+  width: 200px ;
+  justify-content:center !;
+  gap: 20px 1px ;
+  align-content:space-between ;
+  column-gap: 15px ;
+  align-items: baseline;
+}
+
+
+.grid-container{
+  flex-flow: row nowrap;
+  display: grid;
+  float: left;
+  width: 5%;
+  text-align: center;
+}
+
+.scrip{
+  flex-wrap: wrap;
+  display:flex;
+  float:right;
+  text-align: center
+}
+
+
+/* Adopciones 
+{
+  background: #3e3a52;
+  float: left;
+flex-wrap: wrap;
+flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}*/
+
+/* Contacto */
+#contact {
+  padding-top: 100px;
+  padding-bottom:100px;
+  float: center;
+}
+
+#contact h4 {
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+
+#contact form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#contact button {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(223, 164, 245) !important;
+  text-align:center;
+  padding-top: 10px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+width: 100%;
+border-width: 1px 1px 1px 1px;
+overflow:auto;
+flex-wrap: wrap;
+padding-bottom: 5px;
+margin-left: 1px;
+color:rgb(0, 0, 0)
+}
+
+ h1{
+    padding: 2cm;
+text-align: center;
+    font-size : 20pt;
+    font-family : arial,helvetica;
+    font-weight : normal;
+    border-width: 5px 5px 10px 30px;
+    color:brown !important
+    }
+  
+/* Nav */
+.nav
+    {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+text-align: left;
+width: 50%;
+border-width: 10px 1px 5px 20px;
+overflow: auto;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-left: 100px;
+color:rgb(132, 184, 219)!important
+}
+
+#navbar .logo {
+  float: left;
+  padding-top: 16px;
+  font-size: 25px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: center;
+  margin-left: 20px
+}
+
+#navbar ul li {
+  float: center;
+  margin-left: 20px;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+p
+{
+    font-size: 15pt;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(30, 58, 97);
+}
+
+  
